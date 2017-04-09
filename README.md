@@ -28,7 +28,7 @@ Just add `HxSTLParser` to your `Podfile`:
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'HxSTLParser', '1.0'
+pod 'HxSTLParser', '1.0.0'
 ```
 
 ## Usage
