@@ -9,7 +9,9 @@
 `HxSTLParser` is a basic STL parser capable of loading STL files into an `SCNNode`.
 
 ## Installing
-This library is Carthage-compabile.  To use it, add the following line to your Cartfile:
+
+### Via Carthage
+Just add it to your Cartfile
 ```
 github "victorgama/HxSTLParser"
 ```
@@ -18,6 +20,17 @@ Then run:
 ```
 $ carthage update
 ```
+
+### Via Cocoapods
+
+Just add `HxSTLParser` to your `Podfile`:
+```ruby
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'HxSTLParser', '1.0'
+```
+
 ## Usage
 
 ```objc
